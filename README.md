@@ -16,6 +16,16 @@ useful across WordPress, Elementor, WooCommerce, and related agent workflows.
 - Agent guidance for safe discovery, backups, credential handling, and
   troubleshooting.
 
+## Setup Script
+
+`mcp_full_setup.sh` attempts the full local agent setup for both MCP servers.
+It can also attempt WordPress-side plugin activation when run with `wp-cli`
+access to a local WordPress install.
+
+```bash
+./mcp_full_setup.sh --help
+```
+
 ## Contributing Notes
 
 Keep this repo generic. Site-specific URLs, usernames, application passwords,

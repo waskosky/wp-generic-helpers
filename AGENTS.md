@@ -121,6 +121,16 @@ real credentials to this repository.
 The fastest install path is to let Codex start the package with `npx` from
 `config.toml`. For reproducible hosts, pin versions instead of using `latest`.
 
+For a first-pass automated setup, use:
+
+```bash
+./mcp_full_setup.sh --help
+```
+
+The script installs the local Elementor MCP wrapper, configures the WordPress
+proxy in Codex `config.toml`, and can attempt WordPress-side plugin activation
+when run with `wp-cli` access to a local WordPress install.
+
 Check package metadata:
 
 ```bash
